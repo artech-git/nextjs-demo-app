@@ -1,0 +1,12 @@
+[package]
+name = "artech-git/nextjs-demo-app"
+version = "0.2.0"
+description = "Next.js static Website Wasmer starter package"
+readme = "README.md"
+repository = "https://github.com/artech-git/nextjs-demo-app"
+
+[dependencies]
+"wasmer/static-web-server" = "^1"
+
+[fs]
+public = "out"
